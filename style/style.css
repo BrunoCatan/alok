@@ -1,0 +1,102 @@
+@font-face {
+    font-family: strasua;
+    src: url(../fonts/strasua.ttf)
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: strasua;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    overflow: hidden;
+}
+
+#section {
+    height: 100%;
+    width: 25%;
+    background-color: #160d18;
+}
+
+.avatar {
+    width: 8vmax;
+    height: 8vmax;
+    border-radius: 50%;
+    border: 0.3vmax solid #23145b;
+    margin-top: 2%;
+}
+
+.name {
+    color: #09456c;
+    font-size: 3vmax;
+    text-shadow: 10px 5px 5px black;
+}
+
+.sociais {
+    margin: 6%;
+}
+
+.box-menu {
+    width: 70%;
+    height: 6%;
+    background-color: #23145b;
+    position: relative;
+    left: 15%;
+    border-radius: 0.3vmax;
+    margin-top: 8%;
+}
+
+.box-menu {
+    position: relative;
+    left: 15%;
+
+}
+
+.box-menu a {
+    text-align: center;
+    color: white;
+    font-size: 1vmax;
+    position: relative;
+    top: 10%;
+}
+
+.text-center {
+    position: absolute;
+    top: 2%;
+    left: 38%;
+    color: #09456c;
+    font-size: 4vmax;
+}
+
+.text-center p {
+    text-shadow: 10px 5px 5px black;
+}
+
+.backgroud img {
+    width: 75vw;
+    height: 100vh;
+}
+
+footer {
+    position: absolute;
+    bottom: 2%;
+    transform: translateX(22%);
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.3vmax;
+    color: white;
+}
+
+footer a {
+    color: #09456c;
+}
